@@ -24,7 +24,7 @@ Welcome to **Dice Waltz**! This website allows you to generate millions of uniqu
 
 ## 🛠️ Installation
 
-1. Click ![here](https://introcs.cs.princeton.edu/java/assignments/mozart.zip) to download the `mozart.zip` file which contains the 272 measures of Mozart's Dice Waltz. The download link is from ![Princeton University's COS 126 course](https://introcs.cs.princeton.edu/java/assignments/mozart.html).
+1. Click [here](https://introcs.cs.princeton.edu/java/assignments/mozart.zip) to download the `mozart.zip` file which contains the 272 measures of Mozart's Dice Waltz. The download link is from [Princeton University's COS 126 course](https://introcs.cs.princeton.edu/java/assignments/mozart.html).
 2. Extract the contents of the `mozart.zip` file.
 3. Find the parent directory to the contents of the measures/Waltz segments.
 4. Move the parent directory to the root of the project and rename the folder to `segment` as it contains the 272 WAV files, which are the segments needed to produce a Waltz.
