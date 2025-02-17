@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mozart's Dice Waltz</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Mozart's <span class="neon-text">Dice Waltz</span></h1>
+
+		<div>
+			<label for="numMeasures">Number of Measures:</label>
+			<input type="number" id="numMeasures" min="2" max="16" value="8">
+		</div>
+
+		<button id="generate" class="neon-button">🎲 Generate Waltz</button>
+		<button onclick="window.location.href='history.html'" class="neon-button">📜 Learn More</button>
+		
+		<audio id="player" controls></audio>
+
+		<button id="save" class="neon-button">💾 Save Waltz</button>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
